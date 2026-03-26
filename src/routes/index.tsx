@@ -246,11 +246,11 @@ function HomePage() {
 
               <div className="p-8 flex flex-col flex-1">
                 <h3 className="text-2xl font-black text-white mb-1">Last Mile Cargo Van Driver</h3>
-                <p className="text-blue-400 font-semibold mb-6 text-sm">Amazon DSP · New Braunfels, TX</p>
+                <p className="text-blue-400 font-semibold mb-6 text-sm">DSX9, 1150 Schwab Rd, New Braunfels, TX78132</p>
 
                 <div className="grid grid-cols-2 gap-3 mb-6">
                   {[
-                    { label: 'Pay', value: '$$21 / hr' },
+                    { label: 'Pay', value: '$21 / hr' },
                     { label: 'Shift', value: '4 Days · ~10 hrs' },
                     { label: 'Schedule', value: 'Mon – Sat' },
                     { label: 'Start Time', value: '9:30 AM' },
@@ -322,11 +322,11 @@ function HomePage() {
 
               <div className="p-8 flex flex-col flex-1">
                 <h3 className="text-2xl font-black text-white mb-1">Middle Mile Box Truck Driver</h3>
-                <p className="text-blue-400 font-semibold mb-6 text-sm">Amazon DSP · New Braunfels, TX</p>
+                <p className="text-blue-400 font-semibold mb-6 text-sm">7850 Old Bastrop Rd, New Braunfels, TX78130</p>
 
                 <div className="grid grid-cols-2 gap-3 mb-6">
                   {[
-                    { label: 'Pay', value: '$21 – $25 / hr' },
+                    { label: 'Pay', value: '$22.25/ hr' },
                     { label: 'Shift', value: 'Nights · ~10 hrs' },
                     { label: 'Schedule', value: 'Sun – Thu' },
                     { label: 'Start Time', value: '8:00 PM – 10:00 PM' },
