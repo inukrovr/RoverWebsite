@@ -162,7 +162,7 @@ function HomePage() {
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 ),
                 title: 'Competitive Pay',
-                desc: 'Earn up to $21–$25/hr depending on role and experience, with weekly direct deposit.',
+                desc: 'Pay starting from $21–$22.25/hr depending on role and experience, with continous perfomance based raises and weekly bonuses.',
               },
               {
                 icon: (
@@ -176,14 +176,14 @@ function HomePage() {
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
                 ),
                 title: 'Health Benefits',
-                desc: 'Medical, dental, and vision coverage available for full-time employees.',
+                desc: 'Medical, dental, and vision coverage available.',
               },
               {
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 ),
-                title: 'Consistent Schedules',
-                desc: 'Know your hours in advance. Daytime and overnight shifts available to fit your life.',
+                title: 'Tuition Reimbursement',
+                desc: 'We inevst in your future. Receive upto $5250/yr in Tuition Assistance',
               },
               {
                 icon: (
@@ -196,8 +196,8 @@ function HomePage() {
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                 ),
-                title: 'Fast Hiring',
-                desc: 'Quick application process. Get on the road in as little as one week after applying.',
+                title: 'A Growing Company',
+                desc: 'Currently one of the largest DSPs in the network. We never stop growing',
               },
             ].map((item) => (
               <div
@@ -247,9 +247,9 @@ function HomePage() {
 
                 <div className="grid grid-cols-2 gap-3 mb-6">
                   {[
-                    { label: 'Pay', value: '$21 / hr' },
-                    { label: 'Shift', value: '4 Days · ~10 hrs' },
-                    { label: 'Schedule', value: 'Mon – Sat' },
+                    { label: 'Pay', value: 'Starting at $21 / hr' },
+                    { label: 'Shift', value: '10hrs/day · 4 days/wk' },
+                    { label: 'Type', value: 'Full Time' },
                     { label: 'Start Time', value: '9:30 AM' },
                   ].map((d) => (
                     <div key={d.label} className="bg-gray-800 rounded-xl p-3">
@@ -263,9 +263,9 @@ function HomePage() {
                   <h4 className="text-sm font-bold text-gray-300 uppercase tracking-wide mb-3">Requirements</h4>
                   <ul className="space-y-2">
                     {[
+                      'A drive to Deliver Smiles with Top Tier Quality with Safety in mind',
                       'Valid driver\'s license with clean record',
                       'Ability to lift up to 50 lbs',
-                      'Smartphone capable of running delivery app',
                       'Pass background check & drug screen',
                       'No CDL required',
                     ].map((req) => (
@@ -282,7 +282,7 @@ function HomePage() {
                 <div className="mb-8">
                   <h4 className="text-sm font-bold text-gray-300 uppercase tracking-wide mb-3">Perks</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['Weekly Pay', 'PTO', 'Health Benefits', 'Uniform Provided', 'Amazon Equipment'].map((perk) => (
+                    {['Bi-Weekly Pay', 'Weekly Bonuses', 'Health Benefits', 'Branded Vans'].map((perk) => (
                       <span key={perk} className="bg-gray-800 text-gray-300 text-xs font-medium px-3 py-1.5 rounded-full border border-gray-700">
                         {perk}
                       </span>
@@ -323,10 +323,10 @@ function HomePage() {
 
                 <div className="grid grid-cols-2 gap-3 mb-6">
                   {[
-                    { label: 'Pay', value: '$22.25/ hr' },
-                    { label: 'Shift', value: 'Nights · ~10 hrs' },
-                    { label: 'Schedule', value: 'Sun – Thu' },
-                    { label: 'Start Time', value: '8:00 PM – 10:00 PM' },
+                    { label: 'Pay', value: 'Starting at $22.25/ hr' },
+                    { label: 'Shift', value: '8 hrs/day · 5 days/wk' },
+                    { label: 'Type', value: 'Full Time' },
+                    { label: 'Start Time', value: '10 PM - 3 AM' },
                   ].map((d) => (
                     <div key={d.label} className="bg-gray-800 rounded-xl p-3">
                       <div className="text-gray-500 text-xs uppercase tracking-wide mb-0.5">{d.label}</div>
@@ -339,11 +339,11 @@ function HomePage() {
                   <h4 className="text-sm font-bold text-gray-300 uppercase tracking-wide mb-3">Requirements</h4>
                   <ul className="space-y-2">
                     {[
-                      'Valid driver\'s license — Class C minimum',
+                      'Valid driver\'s license — No CDL Required',
                       'Box truck or large vehicle experience preferred',
-                      'Ability to lift up to 50 lbs',
+                      'Ability to push pull Palletized Freight',
                       'Pass background check & drug screen',
-                      'Comfortable with overnight hours',
+                      'Comfortable with Overnight Hours',
                     ].map((req) => (
                       <li key={req} className="flex items-start gap-2 text-sm text-gray-400">
                         <svg className="w-4 h-4 text-blue-400 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -358,7 +358,7 @@ function HomePage() {
                 <div className="mb-8">
                   <h4 className="text-sm font-bold text-gray-300 uppercase tracking-wide mb-3">Perks</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['Weekly Pay', 'Night Differential', 'PTO', 'Health Benefits', 'Fuel Provided'].map((perk) => (
+                    {['Bi-Weekly Pay', 'Guaranteed 40 hours', 'PTO', 'Health Benefits'].map((perk) => (
                       <span key={perk} className="bg-gray-800 text-gray-300 text-xs font-medium px-3 py-1.5 rounded-full border border-gray-700">
                         {perk}
                       </span>
