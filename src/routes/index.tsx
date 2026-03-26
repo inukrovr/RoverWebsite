@@ -250,10 +250,10 @@ function HomePage() {
 
                 <div className="grid grid-cols-2 gap-3 mb-6">
                   {[
-                    { label: 'Pay', value: '$18 – $21 / hr' },
-                    { label: 'Shift', value: 'Days · ~10 hrs' },
+                    { label: 'Pay', value: '$$21 / hr' },
+                    { label: 'Shift', value: '4 Days · ~10 hrs' },
                     { label: 'Schedule', value: 'Mon – Sat' },
-                    { label: 'Start Time', value: '7:00 AM – 9:00 AM' },
+                    { label: 'Start Time', value: '9:30 AM' },
                   ].map((d) => (
                     <div key={d.label} className="bg-gray-800 rounded-xl p-3">
                       <div className="text-gray-500 text-xs uppercase tracking-wide mb-0.5">{d.label}</div>
