@@ -11,7 +11,7 @@ function HomePage() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-gray-950/90 backdrop-blur border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/rover-logo2.png" alt="Rover Logistics" className="w-10 h-10 rounded-lg object-contain" />
+            <img src="/rovr logo.png" alt="Rover Logistics" className="w-10 h-10 rounded-lg object-contain" />
             <span className="font-bold text-xl tracking-tight">Rover Logistics</span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
@@ -103,7 +103,7 @@ function HomePage() {
                 <span className="text-gray-400">Delivery Done Right</span>
               </h2>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                As an Amazon Delivery Service Partner, Rover Logistics operates two critical legs of the delivery network serving Central Texas.
+                As an Amazon Delivery Service Partner, Rover Logistics operates two critical legs of the delivery network serving Central Texas 24/7.
               </p>
               <div className="space-y-5">
                 <div className="flex gap-4">
@@ -114,7 +114,7 @@ function HomePage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1">Last Mile Delivery</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">Our cargo van drivers handle the final leg — residential and business deliveries across New Braunfels and surrounding communities, using Amazon's routing technology.</p>
+                    <p className="text-gray-400 text-sm leading-relaxed">Our cargo van drivers handle the final leg — residential and business deliveries across New Braunfels and surrounding communities.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -125,7 +125,7 @@ function HomePage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1">Middle Mile Transport</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">Our box truck drivers move freight between Amazon fulfillment and sortation centers overnight, keeping the supply chain flowing 24/7.</p>
+                    <p className="text-gray-400 text-sm leading-relaxed">Our box truck drivers move freight between Amazon and USPS stations overnight, keeping the supply chain flowing.</p>
                   </div>
                 </div>
               </div>
@@ -134,15 +134,12 @@ function HomePage() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden aspect-[4/3]">
                 <img
-                  src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80"
-                  alt="Delivery driver loading van"
+                  src="/Main.png"
+                  alt="Delivery Vehicles"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-blue-500 text-gray-950 rounded-2xl p-5 font-black text-sm shadow-2xl">
-                <div className="text-3xl font-black">100%</div>
-                <div>Amazon-Certified</div>
-                <div>DSP Partner</div>
               </div>
             </div>
           </div>
@@ -308,8 +305,8 @@ function HomePage() {
             <div className="bg-gray-900 border border-gray-700 rounded-3xl overflow-hidden flex flex-col hover:border-blue-400/60 transition-colors">
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80"
-                  alt="Box truck on highway at night"
+                  src="/pallet.png"
+                  alt="Person pulling a pallet"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent" />
@@ -401,7 +398,7 @@ function HomePage() {
       <footer className="bg-gray-900 border-t border-gray-800 py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
           <div className="flex items-center gap-3">
-            <img src="/rover-logo2.png" alt="Rover Logistics" className="w-8 h-8 rounded-lg object-contain" />
+            <img src="/ROVR logo.png" alt="Rover Logistics" className="w-8 h-8 rounded-lg object-contain" />
             <span className="font-bold text-gray-300">Rover Logistics</span>
             <span>·</span>
             <span>New Braunfels, TX</span>
