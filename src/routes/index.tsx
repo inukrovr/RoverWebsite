@@ -34,7 +34,7 @@ function HomePage() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80')",
+              "src('/HeaderBackground.png')",
           }}
         />
         <div className="absolute inset-0 bg-gray-950/75" />
