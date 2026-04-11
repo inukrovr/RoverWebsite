@@ -73,22 +73,6 @@ function HomePage() {
           </div>
         </div>
 
-        {/* Stat bar */}
-        <div className="absolute bottom-0 left-0 right-0 bg-gray-900/80 backdrop-blur border-t border-gray-800">
-          <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {[
-              { value: '500+', label: 'Deliveries Daily' },
-              { value: 'Day & Night', label: 'Shift Options' },
-              { value: 'New Braunfels', label: 'Local HQ' },
-              { value: 'Amazon DSP', label: 'Certified Partner' },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <div className="text-2xl font-black text-blue-500">{stat.value}</div>
-                <div className="text-xs text-gray-400 uppercase tracking-widest mt-1">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
 
       {/* About */}
@@ -138,8 +122,6 @@ function HomePage() {
                   alt="Delivery Vehicles"
                   className="w-full h-full object-cover"
                 />
-              </div>
-              <div className="absolute -bottom-6 -left-6 bg-blue-500 text-gray-950 rounded-2xl p-5 font-black text-sm shadow-2xl">
               </div>
             </div>
           </div>
