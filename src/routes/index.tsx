@@ -30,15 +30,6 @@ function HomePage() {
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage:
-              "src('/HeaderBackground.png')",
-          }}
-        />
-        <div className="absolute inset-0 bg-gray-950/75" />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/60 to-transparent" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-24">
           <div className="max-w-2xl">
@@ -73,22 +64,6 @@ function HomePage() {
           </div>
         </div>
 
-        {/* Stat bar */}
-        <div className="absolute bottom-0 left-0 right-0 bg-gray-900/80 backdrop-blur border-t border-gray-800">
-          <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {[
-              { value: '500+', label: 'Deliveries Daily' },
-              { value: 'Day & Night', label: 'Shift Options' },
-              { value: 'New Braunfels', label: 'Local HQ' },
-              { value: 'Amazon DSP', label: 'Certified Partner' },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <div className="text-2xl font-black text-blue-500">{stat.value}</div>
-                <div className="text-xs text-gray-400 uppercase tracking-widest mt-1">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
 
       {/* About */}
@@ -138,8 +113,6 @@ function HomePage() {
                   alt="Delivery Vehicles"
                   className="w-full h-full object-cover"
                 />
-              </div>
-              <div className="absolute -bottom-6 -left-6 bg-blue-500 text-gray-950 rounded-2xl p-5 font-black text-sm shadow-2xl">
               </div>
             </div>
           </div>
@@ -279,17 +252,6 @@ function HomePage() {
                   </ul>
                 </div>
 
-                <div className="mb-8">
-                  <h4 className="text-sm font-bold text-gray-300 uppercase tracking-wide mb-3">Perks</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {['Bi-Weekly Pay', 'Weekly Bonuses', 'Health Benefits', 'Branded Vans'].map((perk) => (
-                      <span key={perk} className="bg-gray-800 text-gray-300 text-xs font-medium px-3 py-1.5 rounded-full border border-gray-700">
-                        {perk}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
                 <a
                   href="https://www.indeed.com/job/amazon-dsp-package-delivery-driver-ed3a847442909c26"
                   target="_blank"
@@ -353,17 +315,6 @@ function HomePage() {
                       </li>
                     ))}
                   </ul>
-                </div>
-
-                <div className="mb-8">
-                  <h4 className="text-sm font-bold text-gray-300 uppercase tracking-wide mb-3">Perks</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {['Bi-Weekly Pay', 'Guaranteed 40 hours', 'PTO', 'Health Benefits'].map((perk) => (
-                      <span key={perk} className="bg-gray-800 text-gray-300 text-xs font-medium px-3 py-1.5 rounded-full border border-gray-700">
-                        {perk}
-                      </span>
-                    ))}
-                  </div>
                 </div>
 
                 <a
